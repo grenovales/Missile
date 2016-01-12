@@ -8,6 +8,11 @@ MG.init = function () {
             MG.game.onMouseMove(evt.clientX, evt.clientY);
         }, false);
 
+    document.addEventListener('touchstart', function(e){
+       //MG.game.onMouseMove(e.touches[0].clientX , e.touches[0].clientY);
+       MG.game.onMouseClick
+    },false);
+
     window.addEventListener('mousedown', MG.game.onMouseClick, false);
 
     var update = function (dt) {

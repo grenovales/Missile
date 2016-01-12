@@ -33,19 +33,19 @@ MG.game = (function () {
     var Messages = {
         START: {
             title: getLevelString,
-            text:  function () {return 'CLICK TO BEGIN';}
+            text:  function () {return 'TOUCH TO BEGIN';}
         },
         CRASH: {
             title: function () {return 'CRASHED';},
-            text:  function () {return 'CLICK TO RETRY';}
+            text:  function () {return 'TOUCH TO RETRY';}
         },
         GAME_OVER: {
             title: function () {return 'GAME OVER';},
-            text:  function () {return 'CLICK TO START AGAIN';}
+            text:  function () {return 'TOUCH TO START AGAIN';}
         },
         FINISH: {
             title: function () {return 'LEVEL COMPLETED';},
-            text:  function () {return 'CLICK TO CONTINUE';}
+            text:  function () {return 'TOUCH TO CONTINUE';}
         }
     };
 
